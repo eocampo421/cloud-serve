@@ -4,6 +4,6 @@ services:
   serve:
     build: .
   sut:
-    build: ./tests
+    build: ./test
     depends_on:
       - serve
